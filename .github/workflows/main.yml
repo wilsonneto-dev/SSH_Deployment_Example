@@ -1,4 +1,4 @@
-name: Publishing React to Azure Blob Storage
+name: SSH PHP Deployment
 
 on:
   push:
