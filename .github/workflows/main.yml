@@ -21,7 +21,6 @@ jobs:
             rm -rf ./*
             git clone https://github.com/wilsonneto-dev/SSH_Deployment_Example.git
             mv ./SSH_Deployment_Example/* ./
-            mv ./SSH_Deployment_Example/.htaccess ./
             export COMPOSER_ALLOW_SUPERUSER=1
             composer install
           ENDSSH
