@@ -17,5 +17,11 @@ jobs:
       - name: Hello
         run: |
           ssh -o StrictHostKeyChecking=no root@${{ secrets.HOST_IP }} <<- 'ENDSSH'
-            echo "hi" >> ./hi.txt
+            cd /var/www/html
+            rm -rf ./*
+            git clone https://github.com/wilsonneto-dev/SSH_Deployment_Example.git
+            mv ./SSH_Deployment_Example/* ./
+            mv ./SSH_Deployment_Example/.htaccess ./
+            export COMPOSER_ALLOW_SUPERUSER=1
+            composer install
           ENDSSH
