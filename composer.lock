@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e0b9fea7139d1a2b53ee451cd3f64fca",
+    "packages": [
+        {
+            "name": "wilsonneto-dev/express-router",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wilsonneto-dev/express-router.git",
+                "reference": "cd2e37deaac19d3410847147c60bd74db8a100c8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wilsonneto-dev/express-router/zipball/cd2e37deaac19d3410847147c60bd74db8a100c8",
+                "reference": "cd2e37deaac19d3410847147c60bd74db8a100c8",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ExpressRouter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Wilson Neto",
+                    "email": "hi@wilsonneto.com.br"
+                }
+            ],
+            "description": "The simplest router for PHP",
+            "support": {
+                "issues": "https://github.com/wilsonneto-dev/express-router/issues",
+                "source": "https://github.com/wilsonneto-dev/express-router/tree/1.0.1"
+            },
+            "time": "2022-09-18T20:30:14+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "wilsonneto-dev/express-router": "^1.0"
+    }
+}
